@@ -44,7 +44,7 @@
             <c:param name="q" value="learn code"></c:param>
         </c:url>
         <h1><c:out value="${myurl}"></c:out></h1>
-        <c:redirect url="${myurl}"></c:redirect>
+        <%--<c:redirect url="${myurl}"></c:redirect>--%>
         
     </body>
 </html>
